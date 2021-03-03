@@ -1,0 +1,77 @@
+/*Navigation bar */
+#header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  height: 50px;
+  background-color: blue;
+}
+@media (max-width: 576px) {
+  
+}
+
+#header-img {
+  height: 50px;
+}
+
+#nav-bar {
+  background-color: pink;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/*Main container*/
+container {
+  position: relative;
+}
+
+/* Registration */
+#registration {
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+
+/* Features */
+#features {
+  text-align: center;
+  background-color: grey;
+}
+
+/* What We Do */
+#whatWeDo {
+  display: flex;
+  background-color: green;
+  flex-direction: column;
+  align-items: center;
+}
+
+#video {
+  
+}
+
+/* Pricing */
+#price {
+  text-align: center;
+  background-color: orange;
+}
+
+/*Create 3 columns of equal width*/
+.columns {
+  float: left
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid;
+  margin: 0;
+  padding: 0;
+}
