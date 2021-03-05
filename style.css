@@ -7,7 +7,6 @@
   left: 0;
   justify-content: space-between;
   height: 50px;
-  background-color: blue;
 }
 @media (max-width: 576px) {
   
@@ -18,12 +17,16 @@
 }
 
 #nav-bar {
-  background-color: pink;
+  background-color: black;
+  width: 100%;
 }
 
 .nav-link {
   text-decoration: none;
   margin-right: 20px;
+  float: right;
+  padding: 15px;
+  color: white;
 }
 
 /*Main container*/
@@ -31,29 +34,50 @@ container {
   position: relative;
 }
 
+/*Sections*/
+.page-section {
+  padding: 40px;
+}
 /* Registration */
 #registration {
   display: flex;
-  background-color: yellow;
+  /* background-color: yellow; */
   flex-direction: column;
   align-items: center;
-  padding: 60px;
+  height: 60px;
+  padding: 200px;
 }
 
 /* Features */
-#features {
+#feature-header {
   text-align: center;
-  background-color: grey;
+}
+
+#features {
+  background-color: black;
+  color: white;  
+  padding: 70px;
+  height: 500px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
 }
 
 /* What We Do */
 #whatWeDo {
   display: flex;
-  background-color: green;
+  /* background-color: green; */
   flex-direction: column;
   align-items: center;
+  height: 500px;
 }
 
+/*Video section*/
 #video {
   
 }
@@ -61,12 +85,13 @@ container {
 /* Pricing */
 #price {
   text-align: center;
-  background-color: orange;
 }
 
 /*Create 3 columns of equal width*/
 .columns {
-  float: left
+  float: left;
+  width: 33.3%;
+  padding: 2px;
 }
 
 .price {
@@ -74,4 +99,10 @@ container {
   border: 1px solid;
   margin: 0;
   padding: 0;
+  border-radius: 10px;
+}
+
+.header {
+  color: white;
+  background-color: black;
 }
