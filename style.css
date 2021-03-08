@@ -1,0 +1,108 @@
+/*Navigation bar */
+#header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  height: 50px;
+}
+@media (max-width: 576px) {
+  
+}
+
+#header-img {
+  height: 50px;
+}
+
+#nav-bar {
+  background-color: black;
+  width: 100%;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-right: 20px;
+  float: right;
+  padding: 15px;
+  color: white;
+}
+
+/*Main container*/
+container {
+  position: relative;
+}
+
+/*Sections*/
+.page-section {
+  padding: 40px;
+}
+/* Registration */
+#registration {
+  display: flex;
+  /* background-color: yellow; */
+  flex-direction: column;
+  align-items: center;
+  height: 60px;
+  padding: 200px;
+}
+
+/* Features */
+#feature-header {
+  text-align: center;
+}
+
+#features {
+  background-color: black;
+  color: white;  
+  padding: 70px;
+  height: 500px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+
+/* What We Do */
+#whatWeDo {
+  display: flex;
+  /* background-color: green; */
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+
+/*Video section*/
+#video {
+  
+}
+
+/* Pricing */
+#price {
+  text-align: center;
+}
+
+/*Create 3 columns of equal width*/
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 2px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.header {
+  color: white;
+  background-color: black;
+}
